@@ -24,7 +24,7 @@ The Holy Quran in One Apps, build with Beautiful UI/UX!
 
 # Download
 
-- Click Me! [Quranify_1.0](https://github.com/Jahirrrr/Quranify/blob/5c6dbb800d4a53f9d2c1b414607fe29b5675cc39/Quranify_1.0.apk)
+- Click Me! [Download-Now](https://github.com/Jahirrrr/Quranify/releases)
 
 # Credits
 
