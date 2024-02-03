@@ -24,5 +24,5 @@ The Holy Quran in One Apps, build with Beuatiful UI/UX!
 
 # Credits
 
-- IndMind [quran-json]([https://github.com/Jawaksrip/jawaskrip](https://github.com/risan/quran-json)https://github.com/risan/quran-json)
+- Risan [quran-json](https://github.com/risan/quran-json)
 
