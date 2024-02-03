@@ -1,0 +1,48 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:layout_weight="1">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:src="@drawable/icon"
+			android:scaleType="fitCenter" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear9"
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:layout_weight="1">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="2dp"
+			android:text="Quranify : The Holy Qur'an In One Apps"
+			android:textSize="14sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:text="Polyvor Labs"
+			android:textSize="12sp"
+			android:textColor="#42A5F5" />
+	</LinearLayout>
+</LinearLayout>

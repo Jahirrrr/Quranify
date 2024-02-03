@@ -1,0 +1,154 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#F5F5F5"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right|center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/mode"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:src="@drawable/moon"
+				android:scaleType="fitCenter"
+				android:rotation="340"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_margin="5dp"
+				android:padding="5dp"
+				android:src="@drawable/ic_turned_in_black"
+				android:scaleType="fitCenter"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_margin="5dp"
+				android:padding="5dp"
+				android:src="@drawable/ic_search_black"
+				android:scaleType="fitCenter"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="6dp"
+				android:padding="2dp"
+				android:gravity="right|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="The Holy Qur'an"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#FF9800" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="2dp"
+					android:text="ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ"
+					android:textSize="14sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#FFFFFF"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/vscroll1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+					android:id="@+id/linear5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<LinearLayout
+						android:id="@+id/linear_1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear6"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:background="#F5F5F5"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="horizontal">
+							<EditText
+								android:id="@+id/edittext2"
+								android:layout_width="wrap_content"
+								android:layout_height="45dp"
+								android:padding="8dp"
+								android:gravity="right|center_vertical"
+								android:textSize="16sp"
+								android:textColor="#212121"
+								android:hint="Surah Name..."
+								android:textColorHint="#212121"
+								android:singleLine="true"
+								android:imeOptions="actionDone"
+								android:layout_gravity="center_horizontal|center_vertical"
+								android:layout_weight="1" />
+						</LinearLayout>
+						<ListView
+							android:id="@+id/listview1"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:dividerHeight="0dp"
+							android:divider="@null"
+							android:choiceMode="none" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear_2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:orientation="vertical" />
+					<LinearLayout
+						android:id="@+id/linear_3"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:orientation="vertical" />
+					<LinearLayout
+						android:id="@+id/linear_4"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:orientation="vertical" />
+					<LinearLayout
+						android:id="@+id/linear_5"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:orientation="vertical" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
